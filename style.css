@@ -1,8 +1,8 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
     margin: 0;
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
     background-color: rgb(5, 134, 5);
