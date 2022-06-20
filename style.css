@@ -7,4 +7,37 @@ body {
     top: 0;
     background-color: rgb(5, 134, 5);
     width: 100%;
+    height: 100px;
+}
+#minha_foto {
+
+    max-width: 200px;
+    margin-top: 110px;
+}
+#licoes_aprendidas{
+    display: inline;
+    width: 45%;
+}
+#licoes_a_aprender{
+    display: inline;
+    width: 45%;
+}
+.listas{
+    display: flex;
+}
+.artigos{
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+}
+.artigos article{
+    width: 45%;
+    border: solid 1px;
+    padding: 5px;
+}
+.artigos aside{
+    width: 45%;
+    float: right;
+    border: solid 1px;
+    padding: 5px;
 }
