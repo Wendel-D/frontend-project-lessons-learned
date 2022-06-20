@@ -1,7 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 #cabecalho {
@@ -52,7 +52,7 @@ body {
     padding: 5px;
 }
 
-#tabela, th {
+#tabela , th {
     border: solid 1px;
     padding: 5px;
     text-align: center;
