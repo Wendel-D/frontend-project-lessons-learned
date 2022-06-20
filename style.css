@@ -1,71 +1,71 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
-    font-family: Arial, sans-serif;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: rgb(5, 134, 5);
-    width: 100%;
-    height: 100px;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(5, 134, 5);
+  width: 100%;
+  height: 100px;
+  text-align: center;
 }
 
 #minha_foto {
-    max-width: 200px;
-    margin-top: 110px;
+  max-width: 200px;
+  margin: 110px 10px;
 }
 
 #licoes_aprendidas {
-    display: inline;
-    width: 45%;
-    color: blue;
+  display: inline;
+  width: 45%;
+  color: blue;
 }
 
 #licoes_a_aprender {
-    display: inline;
-    width: 45%;
-    color: green;
+  display: inline;
+  width: 45%;
+  color: green;
 }
 
 .listas {
-    display: flex;
+  display: flex;
 }
 
 .artigos {
-    display: flex;
-    margin: 5px;
-    gap: 5px;
+  display: flex;
+  margin: 5px;
+  gap: 5px;
 }
 
 .artigos article {
-    width: 45%;
-    border: solid 1px;
-    padding: 5px;
+  width: 45%;
+  border: solid 1px;
+  padding: 5px;
 }
 
 .artigos aside {
-    width: 45%;
-    float: right;
-    border: solid 1px;
-    padding: 5px;
+  width: 45%;
+  float: right;
+  border: solid 1px;
+  padding: 5px;
 }
 
 p {
-    line-height: 25px;
-    font-size: 20px;
-    font-family: Georgia, Times, serif;
-    color: grey;
+  line-height: 100px;
+  font-size: 20px;
+  font-family: Georgia, Times, serif;
+  color: grey;
 }
 
 #tabela , th {
-    border: solid 1px;
-    padding: 5px;
-    text-align: center;
+  border: solid 1px;
+  padding: 5px;
+  text-align: center;
 }
 
 tr {
-    border: solid 1px;
+  border: solid 1px;
 }
