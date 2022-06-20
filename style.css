@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #cabecalho {
     position: fixed;
@@ -9,18 +10,19 @@ body {
     width: 100%;
     height: 100px;
 }
-#minha_foto {
-
+#minha_foto { 
     max-width: 200px;
     margin-top: 110px;
 }
 #licoes_aprendidas{
     display: inline;
     width: 45%;
+    color: blue;
 }
 #licoes_a_aprender{
     display: inline;
     width: 45%;
+    color: green;
 }
 .listas{
     display: flex;
@@ -40,4 +42,12 @@ body {
     float: right;
     border: solid 1px;
     padding: 5px;
+}
+#tabela, th{
+    border: solid 1px;
+    padding: 5px;
+    text-align: center;
+}
+tr{
+    border: solid 1px;
 }
