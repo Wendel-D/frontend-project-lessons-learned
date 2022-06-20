@@ -40,13 +40,13 @@ body {
   gap: 5px;
 }
 
-.artigos article {
+.lado-esquerdo {
   width: 45%;
   border: solid 1px;
   padding: 5px;
 }
 
-.artigos aside {
+.lado-direito {
   width: 45%;
   float: right;
   border: solid 1px;
